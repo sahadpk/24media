@@ -954,7 +954,7 @@ img {
   -lh-property: 0;
 }
 @-webkit-keyframes fade {
-  0% {
+  0% { 
     opacity: 1;
   }
   50% {
@@ -16035,3 +16035,26 @@ static-hero-s4
   .slide-btnsmain{
     background-color: #edf3f8;
   }
+  .wpo-contact-map{
+    height: 400px !important;
+    width: 600px;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+  }
+ @media screen and (max-width:600px) {
+  .wpo-contact-map{
+    height: 350px !important;
+    width: 350px !important;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+  }
+ }
+ .owl-nav{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
