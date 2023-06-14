@@ -14969,6 +14969,46 @@ static-hero-s4
 	-o-transition: visibility 0.5s;
 	transition: visibility 0.5s;
   }
+  @media screen and (min-width:980px){
+    .cbh-phone {
+      display: block;
+      position: fixed;
+      left: 1150px;
+      bottom: -55px;
+      visibility: hidden;
+      background-color: transparent;
+      width: 200px;
+      height: 200px;
+      cursor: pointer;
+      z-index: 999;
+      -webkit-backface-visibility: hidden;
+      -webkit-transform: translateZ(0);
+      -webkit-transition: visibility 0.5s;
+      -moz-transition: visibility 0.5s;
+      -o-transition: visibility 0.5s;
+      transition: visibility 0.5s;
+      }
+  }
+  @media screen and (max-width:600px) {
+    .cbh-phone {
+      display: block;
+      position: fixed;
+      left: 200px;
+      bottom: -55px;
+      visibility: hidden;
+      background-color: transparent;
+      width: 200px;
+      height: 200px;
+      cursor: pointer;
+      z-index: 999;
+      -webkit-backface-visibility: hidden;
+      -webkit-transform: translateZ(0);
+      -webkit-transition: visibility 0.5s;
+      -moz-transition: visibility 0.5s;
+      -o-transition: visibility 0.5s;
+      transition: visibility 0.5s;
+      }
+  }
   .cbh-phone.cbh-show {
 	visibility: visible;
   }
@@ -15490,6 +15530,46 @@ static-hero-s4
 	-moz-transition: visibility 0.5s;
 	-o-transition: visibility 0.5s;
 	transition: visibility 0.5s;
+  }
+  @media screen and (min-width:980px) {
+    .cbh-phone-call {
+      display: block;
+      position: fixed;
+      left: 1150px;
+      bottom: 60px;
+      visibility: hidden;
+      background-color: transparent;
+      width: 200px;
+      height: 200px;
+      cursor: pointer;
+      z-index: 999;
+      -webkit-backface-visibility: hidden;
+      -webkit-transform: translateZ(0);
+      -webkit-transition: visibility 0.5s;
+      -moz-transition: visibility 0.5s;
+      -o-transition: visibility 0.5s;
+      transition: visibility 0.5s;
+      }
+  }
+  @media screen and (max-width:600px) {
+    .cbh-phone-call {
+      display: block;
+      position: fixed;
+      left: 200px;
+      bottom: 60px;
+      visibility: hidden;
+      background-color: transparent;
+      width: 200px;
+      height: 200px;
+      cursor: pointer;
+      z-index: 999;
+      -webkit-backface-visibility: hidden;
+      -webkit-transform: translateZ(0);
+      -webkit-transition: visibility 0.5s;
+      -moz-transition: visibility 0.5s;
+      -o-transition: visibility 0.5s;
+      transition: visibility 0.5s;
+      }
   }
   .cbh-phone-call.cbh-show {
 	visibility: visible;
